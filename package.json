@@ -1,0 +1,30 @@
+{
+    "name": "submisson-frontend",
+    "version": "1.0.0",
+    "description": "submission dicoding",
+    "main": "index.js",
+    "scripts": {
+        "start-dev": "webpack serve --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.25.2",
+        "@babel/preset-env": "^7.25.4",
+        "animejs": "^3.2.2",
+        "babel-loader": "^9.2.1",
+        "css-loader": "^7.1.2",
+        "html-webpack-plugin": "^5.6.0",
+        "prettier": "^3.3.3",
+        "style-loader": "^4.0.0",
+        "sweetalert2": "^11.14.0",
+        "webpack": "^5.94.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.1.0"
+    },
+    "devDependencies": {
+        "file-loader": "^6.2.0",
+        "mini-css-extract-plugin": "^2.9.1"
+    }
+}
